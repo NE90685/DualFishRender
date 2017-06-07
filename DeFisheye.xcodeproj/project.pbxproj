@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A043B661EE1328000F0D0BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A043B651EE1328000F0D0BD /* main.m */; };
+		6A043B691EE1328000F0D0BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A043B681EE1328000F0D0BD /* AppDelegate.m */; };
+		6A043B6C1EE1328000F0D0BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A043B6B1EE1328000F0D0BD /* ViewController.m */; };
+		6A043B6F1EE1328000F0D0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B6D1EE1328000F0D0BD /* Main.storyboard */; };
+		6A043B711EE1328000F0D0BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B701EE1328000F0D0BD /* Assets.xcassets */; };
+		6A043B741EE1328000F0D0BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B721EE1328000F0D0BD /* LaunchScreen.storyboard */; };
+		6A043B7E1EE132D900F0D0BD /* Theta.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B7D1EE132D900F0D0BD /* Theta.fsh */; };
+		6A043B801EE132E700F0D0BD /* normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B7F1EE132E700F0D0BD /* normal.vsh */; };
+		6A043B861EE1333400F0D0BD /* FishEye.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6A043B851EE1333400F0D0BD /* FishEye.fsh */; };
+		6A043B961EE1340300F0D0BD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B951EE1340300F0D0BD /* GLKit.framework */; };
+		6A043B981EE1340A00F0D0BD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B971EE1340A00F0D0BD /* OpenGLES.framework */; };
+		6A043B9A1EE1341300F0D0BD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B991EE1341300F0D0BD /* QuartzCore.framework */; };
+		6A043B9C1EE1341B00F0D0BD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B9B1EE1341B00F0D0BD /* CoreMedia.framework */; };
+		6A043B9E1EE1342200F0D0BD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B9D1EE1342200F0D0BD /* AVFoundation.framework */; };
+		6A043BA01EE1342D00F0D0BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A043B9F1EE1342D00F0D0BD /* CoreGraphics.framework */; };
+		6A30C7251EE52DDF008BE1F8 /* NVFishEyeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A30C7241EE52DDF008BE1F8 /* NVFishEyeFilter.m */; };
+		6A30C7271EE52E41008BE1F8 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A30C7261EE52E41008BE1F8 /* GPUImage.framework */; };
+		6A30C72A1EE5324D008BE1F8 /* GPUImageContext+NVInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A30C7291EE5324D008BE1F8 /* GPUImageContext+NVInit.m */; };
+		6A30C7341EE55440008BE1F8 /* NVFishRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A30C7331EE55440008BE1F8 /* NVFishRenderView.m */; };
+		6A30C7501EE6A2D9008BE1F8 /* Equirectangular.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6A30C74F1EE6A2D9008BE1F8 /* Equirectangular.fsh */; };
+		6A30C7541EE78EDE008BE1F8 /* dubai.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A30C7511EE78EDE008BE1F8 /* dubai.mp4 */; };
+		6A514BCE1EE7D03500DDD8CE /* theta_s.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 6A514BCD1EE7D03500DDD8CE /* theta_s.MP4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A043B611EE1328000F0D0BD /* DeFisheye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeFisheye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A043B651EE1328000F0D0BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A043B671EE1328000F0D0BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A043B681EE1328000F0D0BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A043B6A1EE1328000F0D0BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6A043B6B1EE1328000F0D0BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6A043B6E1EE1328000F0D0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A043B701EE1328000F0D0BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A043B731EE1328000F0D0BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A043B751EE1328000F0D0BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A043B7D1EE132D900F0D0BD /* Theta.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Theta.fsh; sourceTree = "<group>"; };
+		6A043B7F1EE132E700F0D0BD /* normal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = normal.vsh; sourceTree = "<group>"; };
+		6A043B851EE1333400F0D0BD /* FishEye.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FishEye.fsh; sourceTree = "<group>"; };
+		6A043B951EE1340300F0D0BD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		6A043B971EE1340A00F0D0BD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6A043B991EE1341300F0D0BD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A043B9B1EE1341B00F0D0BD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6A043B9D1EE1342200F0D0BD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A043B9F1EE1342D00F0D0BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A30C7231EE52DDF008BE1F8 /* NVFishEyeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVFishEyeFilter.h; sourceTree = "<group>"; };
+		6A30C7241EE52DDF008BE1F8 /* NVFishEyeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVFishEyeFilter.m; sourceTree = "<group>"; };
+		6A30C7261EE52E41008BE1F8 /* GPUImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GPUImage.framework; path = Frameworks/GPUImage.framework; sourceTree = "<group>"; };
+		6A30C7281EE5324D008BE1F8 /* GPUImageContext+NVInit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPUImageContext+NVInit.h"; sourceTree = "<group>"; };
+		6A30C7291EE5324D008BE1F8 /* GPUImageContext+NVInit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GPUImageContext+NVInit.m"; sourceTree = "<group>"; };
+		6A30C7321EE55440008BE1F8 /* NVFishRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVFishRenderView.h; sourceTree = "<group>"; };
+		6A30C7331EE55440008BE1F8 /* NVFishRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVFishRenderView.m; sourceTree = "<group>"; };
+		6A30C74F1EE6A2D9008BE1F8 /* Equirectangular.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Equirectangular.fsh; sourceTree = "<group>"; };
+		6A30C7511EE78EDE008BE1F8 /* dubai.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dubai.mp4; sourceTree = "<group>"; };
+		6A514BCD1EE7D03500DDD8CE /* theta_s.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = theta_s.MP4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A043B5E1EE1328000F0D0BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A043BA01EE1342D00F0D0BD /* CoreGraphics.framework in Frameworks */,
+				6A043B9E1EE1342200F0D0BD /* AVFoundation.framework in Frameworks */,
+				6A043B9C1EE1341B00F0D0BD /* CoreMedia.framework in Frameworks */,
+				6A043B9A1EE1341300F0D0BD /* QuartzCore.framework in Frameworks */,
+				6A30C7271EE52E41008BE1F8 /* GPUImage.framework in Frameworks */,
+				6A043B981EE1340A00F0D0BD /* OpenGLES.framework in Frameworks */,
+				6A043B961EE1340300F0D0BD /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A043B581EE1328000F0D0BD = {
+			isa = PBXGroup;
+			children = (
+				6A043B631EE1328000F0D0BD /* DeFisheye */,
+				6A043B621EE1328000F0D0BD /* Products */,
+				6A043B941EE1340200F0D0BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A043B621EE1328000F0D0BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A043B611EE1328000F0D0BD /* DeFisheye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A043B631EE1328000F0D0BD /* DeFisheye */ = {
+			isa = PBXGroup;
+			children = (
+				6A30C7321EE55440008BE1F8 /* NVFishRenderView.h */,
+				6A30C7331EE55440008BE1F8 /* NVFishRenderView.m */,
+				6A30C7231EE52DDF008BE1F8 /* NVFishEyeFilter.h */,
+				6A30C7241EE52DDF008BE1F8 /* NVFishEyeFilter.m */,
+				6A30C7281EE5324D008BE1F8 /* GPUImageContext+NVInit.h */,
+				6A30C7291EE5324D008BE1F8 /* GPUImageContext+NVInit.m */,
+				6A30C7261EE52E41008BE1F8 /* GPUImage.framework */,
+				6A043B7B1EE132C000F0D0BD /* Shader */,
+				6A043B7C1EE132C000F0D0BD /* Source */,
+				6A043B671EE1328000F0D0BD /* AppDelegate.h */,
+				6A043B681EE1328000F0D0BD /* AppDelegate.m */,
+				6A043B6A1EE1328000F0D0BD /* ViewController.h */,
+				6A043B6B1EE1328000F0D0BD /* ViewController.m */,
+				6A043B6D1EE1328000F0D0BD /* Main.storyboard */,
+				6A043B701EE1328000F0D0BD /* Assets.xcassets */,
+				6A043B721EE1328000F0D0BD /* LaunchScreen.storyboard */,
+				6A043B751EE1328000F0D0BD /* Info.plist */,
+				6A043B641EE1328000F0D0BD /* Supporting Files */,
+			);
+			path = DeFisheye;
+			sourceTree = "<group>";
+		};
+		6A043B641EE1328000F0D0BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A043B651EE1328000F0D0BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A043B7B1EE132C000F0D0BD /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				6A30C74F1EE6A2D9008BE1F8 /* Equirectangular.fsh */,
+				6A043B7D1EE132D900F0D0BD /* Theta.fsh */,
+				6A043B7F1EE132E700F0D0BD /* normal.vsh */,
+				6A043B851EE1333400F0D0BD /* FishEye.fsh */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		6A043B7C1EE132C000F0D0BD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6A514BCD1EE7D03500DDD8CE /* theta_s.MP4 */,
+				6A30C7511EE78EDE008BE1F8 /* dubai.mp4 */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6A043B941EE1340200F0D0BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A043B9F1EE1342D00F0D0BD /* CoreGraphics.framework */,
+				6A043B9D1EE1342200F0D0BD /* AVFoundation.framework */,
+				6A043B9B1EE1341B00F0D0BD /* CoreMedia.framework */,
+				6A043B991EE1341300F0D0BD /* QuartzCore.framework */,
+				6A043B971EE1340A00F0D0BD /* OpenGLES.framework */,
+				6A043B951EE1340300F0D0BD /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A043B601EE1328000F0D0BD /* DeFisheye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A043B781EE1328000F0D0BD /* Build configuration list for PBXNativeTarget "DeFisheye" */;
+			buildPhases = (
+				6A043B5D1EE1328000F0D0BD /* Sources */,
+				6A043B5E1EE1328000F0D0BD /* Frameworks */,
+				6A043B5F1EE1328000F0D0BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeFisheye;
+			productName = DeFisheye;
+			productReference = 6A043B611EE1328000F0D0BD /* DeFisheye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A043B591EE1328000F0D0BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NaverChina;
+				TargetAttributes = {
+					6A043B601EE1328000F0D0BD = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BY6LECFZEY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6A043B5C1EE1328000F0D0BD /* Build configuration list for PBXProject "DeFisheye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A043B581EE1328000F0D0BD;
+			productRefGroup = 6A043B621EE1328000F0D0BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A043B601EE1328000F0D0BD /* DeFisheye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A043B5F1EE1328000F0D0BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A043B741EE1328000F0D0BD /* LaunchScreen.storyboard in Resources */,
+				6A043B711EE1328000F0D0BD /* Assets.xcassets in Resources */,
+				6A043B7E1EE132D900F0D0BD /* Theta.fsh in Resources */,
+				6A043B6F1EE1328000F0D0BD /* Main.storyboard in Resources */,
+				6A30C7501EE6A2D9008BE1F8 /* Equirectangular.fsh in Resources */,
+				6A30C7541EE78EDE008BE1F8 /* dubai.mp4 in Resources */,
+				6A514BCE1EE7D03500DDD8CE /* theta_s.MP4 in Resources */,
+				6A043B861EE1333400F0D0BD /* FishEye.fsh in Resources */,
+				6A043B801EE132E700F0D0BD /* normal.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A043B5D1EE1328000F0D0BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A043B6C1EE1328000F0D0BD /* ViewController.m in Sources */,
+				6A043B691EE1328000F0D0BD /* AppDelegate.m in Sources */,
+				6A30C7341EE55440008BE1F8 /* NVFishRenderView.m in Sources */,
+				6A043B661EE1328000F0D0BD /* main.m in Sources */,
+				6A30C7251EE52DDF008BE1F8 /* NVFishEyeFilter.m in Sources */,
+				6A30C72A1EE5324D008BE1F8 /* GPUImageContext+NVInit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A043B6D1EE1328000F0D0BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A043B6E1EE1328000F0D0BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A043B721EE1328000F0D0BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A043B731EE1328000F0D0BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A043B761EE1328000F0D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A043B771EE1328000F0D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A043B791EE1328000F0D0BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY6LECFZEY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DeFisheye/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				INFOPLIST_FILE = DeFisheye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.DeFisheye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A043B7A1EE1328000F0D0BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BY6LECFZEY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DeFisheye/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				INFOPLIST_FILE = DeFisheye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.DeFisheye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A043B5C1EE1328000F0D0BD /* Build configuration list for PBXProject "DeFisheye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A043B761EE1328000F0D0BD /* Debug */,
+				6A043B771EE1328000F0D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A043B781EE1328000F0D0BD /* Build configuration list for PBXNativeTarget "DeFisheye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A043B791EE1328000F0D0BD /* Debug */,
+				6A043B7A1EE1328000F0D0BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A043B591EE1328000F0D0BD /* Project object */;
+}
